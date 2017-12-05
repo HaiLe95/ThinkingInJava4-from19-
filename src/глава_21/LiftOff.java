@@ -2,7 +2,7 @@ package глава_21;
 
 public class LiftOff implements Runnable {
 
-    private int countDown = 10; // Дефолт
+    protected int countDown = 10; // Дефолт
     private static int taskCount = 0;
     private final int id = taskCount++;
 
